@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "532123095968",
+    "firebase_url": "https://bitcoin-47fe1.firebaseio.com",
+    "project_id": "bitcoin-47fe1",
+    "storage_bucket": "bitcoin-47fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532123095968:android:10f18ad19d1dc300",
+        "android_client_info": {
+          "package_name": "com.example.bitcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532123095968-mmmev0mhi3ctivhcve3p7oss0bibfpsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNHXgew1BssOvOQBTvuc9BRoYB1T-y2bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532123095968-mmmev0mhi3ctivhcve3p7oss0bibfpsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532123095968:android:6e0ba6e4c982ed47",
+        "android_client_info": {
+          "package_name": "com.example.cryptotemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532123095968-mmmev0mhi3ctivhcve3p7oss0bibfpsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNHXgew1BssOvOQBTvuc9BRoYB1T-y2bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532123095968-mmmev0mhi3ctivhcve3p7oss0bibfpsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532123095968:android:937e3f5108e5e4a1",
+        "android_client_info": {
+          "package_name": "com.example.flutterfiney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532123095968-mmmev0mhi3ctivhcve3p7oss0bibfpsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNHXgew1BssOvOQBTvuc9BRoYB1T-y2bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532123095968-mmmev0mhi3ctivhcve3p7oss0bibfpsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

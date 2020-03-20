@@ -1,0 +1,442 @@
+name: flutter_finey
+description: A new Flutter project.
+
+version: 1.0.1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.18.1
+  dson: ^0.15.1
+  scoped_model: ^0.3.0
+  image_picker: ^0.6.1+3
+  video_player: ^0.6.4
+  dio: ^2.1.16
+  intl: ^0.16.0
+  fluro: ^1.3.5
+  charts_flutter: ^0.8.1
+  cloud_firestore: ^0.12.9+6
+  cloud_functions: ^0.4.1+1
+  firebase_auth: ^0.14.0+5
+  firebase_core: ^0.4.0+9
+  firebase_database: ^3.0.7
+  firebase_storage: ^3.0.6
+  http: any
+  crypto: ^2.0.6
+  pointycastle: ^1.0.0-rc2
+  hex: ^0.1.2
+  convert: ^2.1.1
+  async_loader: ^0.1.1
+  flutter_speed_dial: ^1.2.1
+  shared_preferences: ^0.5.3+4
+  google_maps_flutter: ^0.5.21
+  location: ^2.3.5
+  geolocator: ^5.1.3
+  google_maps_webservice: ^0.0.14
+  provider: ^3.0.0+1
+  cached_network_image: ^2.0.0-rc
+  flutter_local_notifications: ^0.8.4+3
+  fluttertoast: ^3.1.0
+  toast: ^0.1.5
+  folding_cell: ^0.1.2
+  qr_flutter: ^3.0.1
+  flutter_cielo: ^1.0.7
+  table_calendar: ^2.0.1
+  flutter_credit_card: ^0.1.3
+  timeline_list: ^0.0.5
+  flutter_youtube: ^1.1.6
+  flutter_calendar_carousel: ^1.3.28
+  datetime_picker_formfield: ^1.0.0
+  badges: ^1.1.0
+  curved_navigation_bar: ^0.3.1
+  rflutter_alert: ^1.0.3
+  simple_animations: ^1.3.4
+  firebase_messaging: ^6.0.2
+  auto_size_text: ^2.1.0
+  flare_flutter: ^1.8.0
+  countdown: ^0.1.0
+  unicorndial: ^1.1.5
+  date_format: ^1.0.8
+  mailer: ^3.0.4
+  web_socket_channel: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/flags/abkhazia.png
+    - images/flags/afghanistan.png
+    - images/flags/aland-islands.png
+    - images/flags/albania.png
+    - images/flags/algeria.png
+    - images/flags/american-samoa.png
+    - images/flags/andorra.png
+    - images/flags/angola.png
+    - images/flags/anguilla.png
+    - images/flags/antigua-and-barbuda.png
+    - images/flags/argentina.png
+    - images/flags/armenia.png
+    - images/flags/aruba.png
+    - images/flags/australia.png
+    - images/flags/austria.png
+    - images/flags/azerbaijan.png
+    - images/flags/azores-islands.png
+    - images/flags/bahamas.png
+    - images/flags/bahrain.png
+    - images/flags/balearic-islands.png
+    - images/flags/bangladesh.png
+    - images/flags/barbados.png
+    - images/flags/basque-country.png
+    - images/flags/belarus.png
+    - images/flags/belgium.png
+    - images/flags/belize.png
+    - images/flags/benin.png
+    - images/flags/bermuda.png
+    - images/flags/bhutan-1.png
+    - images/flags/bhutan.png
+    - images/flags/bolivia.png
+    - images/flags/bonaire.png
+    - images/flags/bosnia-and-herzegovina.png
+    - images/flags/botswana.png
+    - images/flags/brazil.png
+    - images/flags/british-columbia.png
+    - images/flags/british-indian-ocean-territory.png
+    - images/flags/british-virgin-islands.png
+    - images/flags/brunei.png
+    - images/flags/bulgaria.png
+    - images/flags/burkina-faso.png
+    - images/flags/burundi.png
+    - images/flags/cambodia.png
+    - images/flags/cameroon.png
+    - images/flags/canada.png
+    - images/flags/canary-islands.png
+    - images/flags/cape-verde.png
+    - images/flags/cayman-islands.png
+    - images/flags/central-african-republic.png
+    - images/flags/ceuta.png
+    - images/flags/chad.png
+    - images/flags/chile.png
+    - images/flags/china.png
+    - images/flags/christmas-island.png
+    - images/flags/cocos-island.png
+    - images/flags/colombia.png
+    - images/flags/comoros.png
+    - images/flags/cook-islands.png
+    - images/flags/corsica.png
+    - images/flags/costa-rica.png
+    - images/flags/croatia.png
+    - images/flags/cuba.png
+    - images/flags/curacao.png
+    - images/flags/cyprus.png
+    - images/flags/czech-republic.png
+    - images/flags/democratic-republic-of-congo.png
+    - images/flags/denmark.png
+    - images/flags/djibouti.png
+    - images/flags/dominica.png
+    - images/flags/dominican-republic.png
+    - images/flags/east-timor.png
+    - images/flags/ecuador.png
+    - images/flags/egypt.png
+    - images/flags/england.png
+    - images/flags/equatorial-guinea.png
+    - images/flags/eritrea.png
+    - images/flags/estonia.png
+    - images/flags/ethiopia.png
+    - images/flags/european-union.png
+    - images/flags/falkland-islands.png
+    - images/flags/faroe-islands.png
+    - images/flags/fiji.png
+    - images/flags/finland.png
+    - images/flags/france.png
+    - images/flags/french-polynesia.png
+    - images/flags/gabon.png
+    - images/flags/galapagos-islands.png
+    - images/flags/gambia.png
+    - images/flags/georgia.png
+    - images/flags/germany.png
+    - images/flags/ghana.png
+    - images/flags/gibraltar.png
+    - images/flags/greece.png
+    - images/flags/greenland.png
+    - images/flags/grenada.png
+    - images/flags/guam.png
+    - images/flags/guatemala.png
+    - images/flags/guernsey.png
+    - images/flags/guinea-bissau.png
+    - images/flags/guinea.png
+    - images/flags/guyana.png
+    - images/flags/haiti.png
+    - images/flags/hawaii.png
+    - images/flags/honduras.png
+    - images/flags/hong-kong.png
+    - images/flags/hungary.png
+    - images/flags/iceland.png
+    - images/flags/india.png
+    - images/flags/indonesia.png
+    - images/flags/iran.png
+    - images/flags/iraq.png
+    - images/flags/ireland.png
+    - images/flags/isle-of-man.png
+    - images/flags/israel.png
+    - images/flags/italy.png
+    - images/flags/ivory-coast.png
+    - images/flags/jamaica.png
+    - images/flags/japan.png
+    - images/flags/jersey.png
+    - images/flags/jordan.png
+    - images/flags/kazakhstan.png
+    - images/flags/kenya.png
+    - images/flags/kiribati.png
+    - images/flags/kosovo.png
+    - images/flags/kuwait.png
+    - images/flags/kyrgyzstan.png
+    - images/flags/laos.png
+    - images/flags/latvia.png
+    - images/flags/lebanon.png
+    - images/flags/lesotho.png
+    - images/flags/liberia.png
+    - images/flags/libya.png
+    - images/flags/liechtenstein.png
+    - images/flags/lithuania.png
+    - images/flags/luxembourg.png
+    - images/flags/macao.png
+    - images/flags/madagascar.png
+    - images/flags/madeira.png
+    - images/flags/malawi.png
+    - images/flags/malaysia.png
+    - images/flags/maldives.png
+    - images/flags/mali.png
+    - images/flags/malta.png
+    - images/flags/marshall-island.png
+    - images/flags/martinique.png
+    - images/flags/mauritania.png
+    - images/flags/mauritius.png
+    - images/flags/melilla.png
+    - images/flags/mexico.png
+    - images/flags/micronesia.png
+    - images/flags/moldova.png
+    - images/flags/monaco.png
+    - images/flags/mongolia.png
+    - images/flags/montenegro.png
+    - images/flags/montserrat.png
+    - images/flags/morocco.png
+    - images/flags/mozambique.png
+    - images/flags/myanmar.png
+    - images/flags/namibia.png
+    - images/flags/nato.png
+    - images/flags/nauru.png
+    - images/flags/nepal.png
+    - images/flags/netherlands.png
+    - images/flags/new-zealand.png
+    - images/flags/nicaragua.png
+    - images/flags/niger.png
+    - images/flags/nigeria.png
+    - images/flags/niue.png
+    - images/flags/norfolk-island.png
+    - images/flags/north-korea.png
+    - images/flags/northen-cyprus.png
+    - images/flags/northern-marianas-islands.png
+    - images/flags/norway.png
+    - images/flags/oman.png
+    - images/flags/orkney-islands.png
+    - images/flags/ossetia.png
+    - images/flags/pakistan.png
+    - images/flags/palau.png
+    - images/flags/palestine.png
+    - images/flags/panama.png
+    - images/flags/papua-new-guinea.png
+    - images/flags/paraguay.png
+    - images/flags/peru.png
+    - images/flags/philippines.png
+    - images/flags/pitcairn-islands.png
+    - images/flags/portugal.png
+    - images/flags/puerto-rico.png
+    - images/flags/qatar.png
+    - images/flags/rapa-nui.png
+    - images/flags/republic-of-macedonia.png
+    - images/flags/republic-of-poland.png
+    - images/flags/republic-of-the-congo.png
+    - images/flags/romania.png
+    - images/flags/russia.png
+    - images/flags/rwanda.png
+    - images/flags/saba-island.png
+    - images/flags/saint-kitts-and-nevis.png
+    - images/flags/salvador.png
+    - images/flags/samoa.png
+    - images/flags/san-marino.png
+    - images/flags/sao-tome-and-principe.png
+    - images/flags/sardinia.png
+    - images/flags/saudi-arabia.png
+    - images/flags/scotland.png
+    - images/flags/senegal.png
+    - images/flags/serbia.png
+    - images/flags/seychelles.png
+    - images/flags/sierra-leone.png
+    - images/flags/singapore.png
+    - images/flags/sint-eustatius.png
+    - images/flags/sint-maarten.png
+    - images/flags/slovakia.png
+    - images/flags/slovenia.png
+    - images/flags/solomon-islands.png
+    - images/flags/somalia.png
+    - images/flags/somaliland.png
+    - images/flags/south-africa.png
+    - images/flags/south-korea.png
+    - images/flags/south-sudan.png
+    - images/flags/spain.png
+    - images/flags/sri-lanka.png
+    - images/flags/st-barts.png
+    - images/flags/st-lucia.png
+    - images/flags/st-vincent-and-the-grenadines.png
+    - images/flags/sudan.png
+    - images/flags/suriname.png
+    - images/flags/swaziland.png
+    - images/flags/sweden.png
+    - images/flags/switzerland.png
+    - images/flags/syria.png
+    - images/flags/taiwan.png
+    - images/flags/tajikistan.png
+    - images/flags/tanzania.png
+    - images/flags/thailand.png
+    - images/flags/tibet.png
+    - images/flags/togo.png
+    - images/flags/tokelau.png
+    - images/flags/tonga.png
+    - images/flags/transnistria.png
+    - images/flags/trinidad-and-tobago.png
+    - images/flags/tunisia.png
+    - images/flags/turkey.png
+    - images/flags/turkmenistan.png
+    - images/flags/turks-and-caicos.png
+    - images/flags/tuvalu.png
+    - images/flags/uganda.png
+    - images/flags/ukraine.png
+    - images/flags/united-arab-emirates.png
+    - images/flags/united-kingdom.png
+    - images/flags/united-nations.png
+    - images/flags/united-states-of-america.png
+    - images/flags/uruguay.png
+    - images/flags/uzbekistn.png
+    - images/flags/vanuatu.png
+    - images/flags/vatican-city.png
+    - images/flags/venezuela.png
+    - images/flags/vietnam.png
+    - images/flags/virgin-islands.png
+    - images/flags/wales.png
+    - images/flags/western-sahara.png
+    - images/flags/yemen.png
+    - images/flags/zambia.png
+    - images/flags/zimbabwe.png
+    - images/21.jpg
+    - images/avatar.jpg
+    - images/icons/ic_mail.png
+    - images/icons/ic_phone.png
+    - images/icons/ic_back.png
+    - images/icons/ic_back_white.png
+    - images/icons/ic_user.png
+    - images/icons/ic_notification.png
+    - images/icons/ic_faceid.png
+    - images/icons/ic_settings.png
+    - images/icons/ic_arrow_down.png
+    - images/icons/ic_Grab.png
+    - images/icons/ic_arrow_right.png
+    - images/icons/avatar.png
+    - images/icons/ic_chart.png
+    - images/icons/ic_chart.png
+    - images/icons/ic_filter.png
+    - images/icons/ic_menu.png
+    - images/icons/ic_wallet.png
+    - images/icons/ic_wallet_active.png
+    - images/icons/logo.png
+    - images/icons/ic_category.png
+    - images/icons/ic_help.png
+    - images/icons/ic_report.png
+    - images/icons/ic_theme.png
+    - images/icons/ic_policy.png
+    - images/icons/ic_logout.png
+    - images/icons/ic_message.png
+    - images/icons/ic_calendar.png
+    - images/icons/ic_close.png
+    - images/icons/ic_done.png
+    - images/icons/ic_memo.png
+    - images/icons/ic_friends.png
+    - images/icons/ic_location.png
+    - images/icons/ic_plus.png
+    - images/icons/ic_cash.png
+    - images/icons/ic_debit_card.png
+    - images/icons/ic_credit_card.png
+    - images/icons/ic_bank.png
+    - images/icons/ic_amount.png
+    - images/icons/ic_curency.png
+    - images/icons/ic_credit_card_large.png
+    - images/icons/ic_scan.png
+    - images/icons/ic_pro.png
+    - images/icons/btn_close.png
+    - images/ic_money_wallet.png
+    - images/ic_strongbox.png
+    - images/ic_bars.png
+    - images/icons/ic_Family.png
+    - images/icons/ic_Gaming.png
+    - images/icons/ic_Gas.png
+    - images/icons/ic_Lover.png
+    - images/icons/ic_Poker.png
+    - images/icons/ic_Restaurant.png
+    - images/icons/ic_Shopping.png
+    - images/icons/ic_Uber.png
+    - images/icons/ic_add.png
+    - images/icons/ic_calendar.png
+    - images/icons/ic_cinema.png
+    - images/icons/ic_coffee.png
+    - images/icons/ic_travel.png
+    - images/icons/logo2.png
+    - images/icons/ic_btc_icon.png
+    - images/icons/ic_logo.png
+    - images/icons/ic_ativacao.png
+    - images/icons/ic_banco.png
+    - images/icons/ic_refresh.png
+    - images/icons/ic_transacao.png
+    - images/icons/ic_carteira.png
+    - images/icons/ic_rendimentos.png
+    - images/icons/ic_transacoes.png
+
+  fonts:
+    - family: SanFransisco
+      fonts:
+        - asset: fonts/SF/SF-Pro-Display-Regular.otf
+        - asset: fonts/SF/SF-Pro-Display-Light.otf
+        - asset: fonts/SF/SF-Pro-Display-Medium.otf
+        - asset: fonts/SF/SF-Pro-Display-Bold.otf
+        - asset: fonts/SF/SF-Pro-Display-Semibold.otf
+    - family: Quicksand
+      fonts:
+        - asset: fonts/Quicksand/Quicksand-Bold.ttf
+        - asset: fonts/Quicksand/Quicksand-Light.ttf
+        - asset: fonts/Quicksand/Quicksand-Medium.ttf
+        - asset: fonts/Quicksand/Quicksand-Regular.ttf
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
